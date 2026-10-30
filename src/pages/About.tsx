@@ -136,7 +136,7 @@ export default function About() {
           </div>
 
           {/* Profile photograph */}
-          <div className="mx-auto w-full max-w-md">
+          {/* <div className="mx-auto w-full max-w-md">
             <div className="relative mx-auto max-w-sm">
               <div className="absolute -right-4 -top-4 h-28 w-28 rounded-3xl border-2 border-teal-600/30" />
               <div className="absolute -bottom-4 -left-4 h-32 w-32 rounded-3xl bg-teal-100" />
@@ -151,27 +151,44 @@ export default function About() {
                     event.currentTarget.style.display = "none";
                   }}
                 />
-{/* 
-                <div className="absolute inset-0 -z-0 flex flex-col items-center justify-center gap-3 bg-gradient-to-br from-teal-50 to-slate-200 text-slate-500">
-                  <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-teal-700 text-4xl font-bold text-white shadow-lg">
-                    BT
-                  </div>
-                  <span className="text-sm font-medium">
-                    Add your professional photo
-                  </span>
-                </div> */}
-              </div>
-
-              <div className="absolute -bottom-7 right-4 max-w-[85%] rounded-2xl border border-slate-100 bg-white p-4 shadow-xl sm:-right-8 sm:p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-teal-700">
-                  My professional identity
-                </p>
-                <p className="mt-1 font-bold text-slate-950">
-                  Researcher. Educator. Developer.
-                </p>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+
+<div className="mx-auto w-full max-w-md px-4 py-6">
+  <div className="relative mx-auto max-w-sm">
+
+    {/* Subtle background frame */}
+    <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-2xl bg-teal-700/10" />
+
+    {/* Profile photo */}
+    <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-slate-100 shadow-xl shadow-slate-900/10">
+      <img
+        src={`${import.meta.env.BASE_URL}images/bizuhan-profile.jpg`}
+        alt="Bizuhan Abate Tayu"
+        className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-[1.03]"
+        onError={(event) => {
+          event.currentTarget.style.display = "none";
+        }}
+      />
+    </div>
+
+    {/* Small accent line */}
+    <div className="mt-5 flex items-center gap-3">
+      <div className="h-[2px] w-10 rounded-full bg-teal-600" />
+      <span className="text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
+        AI Researcher & Developer
+      </span>
+    </div>
+
+  </div>
+</div>
+
+
+
+          
         </div>
       </section>
 
@@ -426,7 +443,7 @@ export default function About() {
       </section>
 
       {/* Closing CTA */}
-      <section className="border-t border-slate-200 bg-white">
+      {/* <section className="border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-16 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-10 lg:py-20">
           <div>
             <h2 className="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">
@@ -446,7 +463,7 @@ export default function About() {
             <ArrowRight size={18} />
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
