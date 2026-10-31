@@ -5,7 +5,7 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const navItems = [
   // { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
+  { label: "/", to: "/about" },
   { label: "Teaching", to: "/teaching" },
   { label: "Research", to: "/research" },
   { label: "Projects", to: "/projects" },
