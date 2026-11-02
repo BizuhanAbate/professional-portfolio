@@ -3,7 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 
 // BrowserRouter
 
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import About from "./pages/About";
 import Teaching from "./pages/Teaching";
 import Research from "./pages/Research";
