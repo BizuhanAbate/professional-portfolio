@@ -4,9 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const navItems = [
-  // { label: "Home", to: "/" },
-  // { label: "/", to: "/about" },
-   { label: "About", to: "/" },
+  { label: "About", to: "/" },
   { label: "Teaching", to: "/teaching" },
   { label: "Research", to: "/research" },
   { label: "Projects", to: "/projects" },
