@@ -143,8 +143,8 @@ export default function About() {
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-100 shadow-2xl shadow-slate-900/10">
                 <img
-                  // src="/images/bizuhan-profile.jpg"
-                  src={`${import.meta.env.BASE_URL}images/bizuhan-profile.jpg`}
+                  // src="/images/id_photo.png"
+                  src={`${import.meta.env.BASE_URL}images/id_photo.png`}
                   alt="Bizuhan Abate Tayu"
                   className="h-full w-full object-cover object-center"
                   onError={(event) => {
@@ -166,7 +166,7 @@ export default function About() {
     {/* Profile photo */}
     <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-slate-100 shadow-xl shadow-slate-900/10">
       <img
-        src={`${import.meta.env.BASE_URL}images/bizuhan-profile.jpg`}
+        src={`${import.meta.env.BASE_URL}images/id_photo.png`}
         alt="Bizuhan Abate Tayu"
         className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-[1.03]"
         onError={(event) => {
