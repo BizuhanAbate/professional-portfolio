@@ -3,7 +3,6 @@ import MainLayout from "./layouts/MainLayout";
 
 // BrowserRouter
 
-// import Home from "./pages/Home";
 import About from "./pages/About";
 import Teaching from "./pages/Teaching";
 import Research from "./pages/Research";
@@ -16,7 +15,6 @@ export default function App() {
     <HashRouter>
       <Routes>
         <Route element={<MainLayout />}>
-          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/" element={<About />} />
           <Route path="/teaching" element={<Teaching />} />
           <Route path="/research" element={<Research />} />
