@@ -160,10 +160,10 @@ export default function About() {
 <div className="mx-auto w-full max-w-md px-4 py-6">
   <div className="relative mx-auto max-w-sm">
 
-    {/* Subtle background frame */}
+    {/* Subtle background frame   */}
     <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-2xl bg-teal-700/10" />
 
-    {/* Profile photo */}
+    {/* Profile photo  */}
     <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-slate-100 shadow-xl shadow-slate-900/10">
       <img
         src={`${import.meta.env.BASE_URL}images/id_photo.png`}
