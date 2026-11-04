@@ -61,9 +61,10 @@ const contactItems = [
   return (
     <main className="bg-white">
 
-
 {/* CONTACT INFORMATION */}
-<section className="relative overflow-hidden bg-gradient-to-b from-[#F0F7F5] via-white to-[#F8FAFC]">
+<section className="relative overflow-hidden bg-gradient-to-b from-[#F0F7F5] via-white to-[#F8FAFC]"> 
+
+  {/* <section className="relative overflow-hidden bg-[#f4f8f7] px-5 py-24 md:px-8 md:py-28"> */}
 
   {/* Decorative background elements */}
   <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-teal-100/50 blur-3xl" />
@@ -82,9 +83,9 @@ const contactItems = [
       </div>
 
       <h2 className="text-4xl font-bold leading-tight tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-        Good conversations can lead to
+        Good conversations  
         <span className="block bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-500 bg-clip-text text-transparent">
-          extraordinary things.
+         can lead to extraordinary things.
         </span>
       </h2>
 
