@@ -196,7 +196,7 @@ const contactItems = [
       <section className="mx-auto max-w-7xl px-5 pb-20 sm:px-8 lg:px-10">
       {/* optional background color:
       bg-slate-950  */}
-       <div className="mt-20 relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#103C3D] via-[#115E59] to-[#0F766E] px-7 py-12 shadow-xl shadow-teal-900/10 sm:px-12 lg:px-16 lg:py-14"> 
+       <div className="mt-20 relative overflow-hidden rounded-3xl bg-slate-900 px-7 py-12 shadow-xl shadow-teal-900/10 sm:px-12 lg:px-16 lg:py-14"> 
     {/* <div className="mt-20 overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#103C3D] via-[#115E59] to-[#0F766E] px-7 py-12 text-center shadow-xl shadow-teal-900/10 sm:px-14 sm:py-16"> */}
           <div className="absolute -right-20 -top-32 h-72 w-72 rounded-full border border-teal-500/20" />
           <div className="absolute -right-8 -top-20 h-52 w-52 rounded-full border border-teal-500/20" />
@@ -204,22 +204,6 @@ const contactItems = [
           <div className="relative flex flex-col justify-between gap-9 md:flex-row md:items-center">
 
             <div className="max-w-xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-400">
-                {/* Beyond the inbox */}
-                {/* Let's talk */}
-                {/* let’s build something bright. */}
-                Let’s sync our minds, let’s share a thought
-              </p>
-
-              {/* <h2 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Find me around the web.
-              </h2>
-
-              <p className="mt-4 leading-7 text-slate-400">
-                Follow my professional journey, explore my projects,
-                and stay connected with my work in technology, research,
-                and education.
-              </p> */}
 
         <h3 className="mx-auto mt-7 max-w-2xl justify-center text-2xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
         Sometimes, all it takes is a simple hello.
