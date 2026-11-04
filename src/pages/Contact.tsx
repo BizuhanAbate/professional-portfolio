@@ -145,7 +145,7 @@ const contactItems = [
                   ? "noreferrer"
                   : undefined
               }
-              className="group relative flex min-h-[190px] flex-col overflow-hidden rounded-2xl border border-teal-100/80 bg-white/90 p-7 shadow-sm shadow-teal-950/[0.02] transition-all duration-300 hover:-translate-y-2 hover:border-teal-300 hover:bg-white hover:shadow-xl hover:shadow-teal-900/10"
+              className="group relative flex min-h-[190px] flex-col overflow-hidden rounded-2xl border border-teal-100/80 bg-teal-50 p-7 shadow-sm shadow-teal-950/[0.02] transition-all duration-300 hover:-translate-y-2 hover:border-teal-300 hover:bg-white hover:shadow-xl hover:shadow-teal-900/10"
             >
 
               {/* Hover decoration */}
