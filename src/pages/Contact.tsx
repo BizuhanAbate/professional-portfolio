@@ -225,58 +225,8 @@ const contactItems = [
 
       </div>
     </div>
-
-    {/* PERSONAL CLOSING */}
-    {/* <div className="mt-20 overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#103C3D] via-[#115E59] to-[#0F766E] px-7 py-12 text-center shadow-xl shadow-teal-900/10 sm:px-14 sm:py-16">
-
-      <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-white/20 bg-white/10 text-teal-100">
-        <MessageCircle size={25} />
-      </div>
-
-      <h3 className="mx-auto mt-7 max-w-2xl text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl">
-        Sometimes, all it takes is a simple hello.
-      </h3>
-
-      <p className="mx-auto mt-5 max-w-2xl text-sm leading-8 text-teal-50/85 sm:text-base">
-        I believe knowledge grows when shared, ideas become stronger through
-        discussion, and great things happen when people come together.
-        So, if something on this portfolio resonates with you, don't hesitate
-        to reach out. I'd be delighted to connect.
-      </p>
-
-      <div className="mt-9 flex flex-wrap justify-center gap-3">
-
-        <a
-          href={`mailto:${email}`}
-          className="inline-flex items-center gap-3 rounded-xl bg-white px-7 py-4 text-sm font-bold text-teal-900 shadow-lg transition-all hover:-translate-y-1 hover:bg-teal-50"
-        >
-          <Mail size={18} />
-          Send Me an Email
-          <ArrowUpRight size={17} />
-        </a>
-
-        <a
-          href={`https://wa.me/${whatsappNumber}`}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex items-center gap-3 rounded-xl border border-white/30 bg-white/10 px-7 py-4 text-sm font-semibold text-white transition-all hover:-translate-y-1 hover:bg-white/20"
-        >
-          <MessageCircle size={18} />
-          Let's Talk
-        </a>
-
-      </div>
-
-      <p className="mt-9 text-xs font-medium tracking-wide text-teal-100/70">
-        Looking forward to hearing from you.
-      </p>
-
-    </div> */}
-
   </div>
 </section>
-
-
 
 {/* SOCIAL CONNECTIONS */}
       <section className="mx-auto max-w-7xl px-5 pb-20 sm:px-8 lg:px-10">
@@ -291,7 +241,10 @@ const contactItems = [
 
             <div className="max-w-xl">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-400">
-                Beyond the inbox
+                {/* Beyond the inbox */}
+                {/* Let's talk */}
+                {/* let’s build something bright. */}
+                Let’s sync our minds, let’s share a thought
               </p>
 
               {/* <h2 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">
