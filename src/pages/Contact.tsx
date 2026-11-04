@@ -1,14 +1,7 @@
 import {
   ArrowUpRight,
   Mail,
-  // Github,
-  // Linkedin,
   MapPin,
-  GraduationCap,
-  Lightbulb,
-  Code2,
-  Handshake,
-  Send,
   MessageCircle,
   Phone,
 } from "lucide-react";
@@ -16,13 +9,11 @@ import {
 import { FaGithub, FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 const Contact = () => {
-  // Replace these with your actual contact details
-
-const email = "your-email@example.com";
-const phone = "+251 9XX XXX XXX";
-const phoneLink = "+2519XXXXXXXX";
-const whatsappNumber = "2519XXXXXXXX";
-const telegramUsername = "your_telegram_username";
+const email = "bizuhan06@gmail.com";
+const phone = "+251 904 119 893";
+const phoneLink = "+251904119893";
+const whatsappNumber = "251904119893";
+const telegramUsername = "BizuhanAb";
 
 const contactItems = [
   {
@@ -66,34 +57,6 @@ const contactItems = [
     link: "https://www.google.com/maps/search/?api=1&query=Addis+Ababa+Ethiopia",
   },
 ];
-
-
-  const interests = [
-    {
-      icon: GraduationCap,
-      title: "Academic & Research",
-      description:
-        "Research discussions, academic collaboration, publications, and opportunities for further study.",
-    },
-    {
-      icon: Lightbulb,
-      title: "AI & Innovation",
-      description:
-        "Artificial intelligence, machine learning, reinforcement learning, and innovative technology solutions.",
-    },
-    {
-      icon: Code2,
-      title: "Development Projects",
-      description:
-        "Software engineering, web development, technical projects, and building practical solutions.",
-    },
-    {
-      icon: Handshake,
-      title: "Professional Networking",
-      description:
-        "Connecting with professionals, educators, researchers, and people passionate about technology.",
-    },
-  ];
 
   return (
     <main className="bg-white">
@@ -282,7 +245,7 @@ const contactItems = [
               </a>
 
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/bizuhan06abate/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn profile"
